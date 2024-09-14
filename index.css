@@ -26,7 +26,8 @@ body {
 
 .Videos {
   height: 35rem;
-  background-color: #dddddd;
+  background-color: #e8e8e8;
+  width: 100%;
 }
 
 .player {
@@ -76,4 +77,24 @@ body {
 
 .spacer {
   height: 8em;
+}
+
+.comment {
+  position: relative;
+  padding-top: 1em;
+  height: 4em;
+  width: 100%;
+  bottom: 35em;
+  left: 35.5em;
+}
+
+.comment_label {
+  position: relative;
+  bottom: 1.5em;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.pfp {
+  height: inherit;
 }
